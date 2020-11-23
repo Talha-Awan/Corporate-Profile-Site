@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	font-family: Roboto;
+}
+
+.bg-transparent,
+.bg-dark {
+	transition: background-color 0.3s ease-in-out;
+}
+.carousel-item {
+	height: 65vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#aboutpage,
+#blogpage,
+#contactpage,
+#servicespage {
+	padding-top: 50px !important;
+}
+
+.portfolio-item {
+	margin-bottom: 30px;
+}
+
+/* Footer Css */
+.footer-top {
+	background: #111;
+	padding: 80px 0;
+}
+
+.footer-top p {
+	color: #999;
+	line-height: 25px;
+}
+
+.footer-top h2,
+h3 {
+	color: #fff;
+}
+
+.footer-top h2 {
+	font-size: 18px;
+}
+
+.segment-one h3 {
+	color: #fff;
+	letter-spacing: 3px;
+	/* margin: 10px 0; */
+}
+
+.segment-two h2 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.segment-two h2:before {
+	content: "|";
+	color: #007bff;
+	padding-right: 10px;
+}
+
+.segment-two ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.segment-two ul li {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	line-height: 40px;
+}
+
+.segment-two ul li a {
+	color: #999;
+	text-decoration: none;
+}
+
+.segment-three h2 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.segment-three h2:before {
+	content: "|";
+	color: #007bff;
+	padding-right: 10px;
+}
+
+.segment-three a {
+	background: #494848;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.segment-three a i {
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 12px;
+}
+
+.segment-four h2 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.segment-four h2:before {
+	content: "|";
+	color: #007bff;
+	padding-right: 10px;
+}
+
+.segment-four form input[type="submit"] {
+	background: #007bff;
+	border: none;
+	padding: 3px 15px;
+	margin-top: 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.md-mb-30 {
+		margin-bottom: 30px;
+	}
+	#aboutpage,
+	#blogpage,
+	#contactpage,
+	#servicespage {
+		padding-top: 50px !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.sm-mb-30 {
+		margin-bottom: 30px;
+	}
+	.footer-top {
+		padding: 50px 0;
+	}
+	#aboutpage,
+	#blogpage,
+	#contactpage,
+	#servicespage {
+		padding-top: 50px !important;
+	}
+}
+
+.card-body {
+	background-color: #f7f7f7;
+}
+
+/* .features .row {
+	background-color: #f7f7f7;
+} */
+
+#nav li a {
+	color: white;
+}
+
+#nav li a:hover {
+	color: rgb(199, 199, 199);
+	transition: color 0.2s ease-in;
+}
